@@ -37,7 +37,7 @@ circle {
   transform-origin:.7% 100%;
 }
 .child.up {
-  transform-origin:.7% 0%;
+  transform-origin:.7% 1%;
 }
 .node text {
   font: 12px sans-serif;
