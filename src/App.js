@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import BarChart from './BarChart'
 import Tree from './Tree'
 import './App.css';
 
@@ -9,8 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">DATA TREE AI</h1>
         </header>
         {/* <BarChart data={[5,10,1,3]} size={[500,500]}/> */}
         <Tree data={[5,10,1,3]} size={[500,500]}/>
