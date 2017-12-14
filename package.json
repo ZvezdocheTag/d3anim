@@ -2,6 +2,7 @@
   "name": "rd3",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://zvezdochetag.github.io/d3anim",
   "dependencies": {
     "d3": "^4.12.0",
     "d3-axis": "^1.0.8",
@@ -9,6 +10,7 @@
     "d3-scale": "^1.0.7",
     "d3-shape": "^1.2.0",
     "d3-svg-legend": "^2.25.3",
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-motion": "^0.5.2"
@@ -19,6 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
