@@ -30,13 +30,14 @@ body {
   cursor: pointer;
 }
 
-.node circle {
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 3px;
+circle {
+  cursor: pointer;
 }
-.child {
-  transform-origin: 0 65%;
+.child.down {
+  transform-origin:.7% 100%;
+}
+.child.up {
+  transform-origin:.7% 0%;
 }
 .node text {
   font: 12px sans-serif;
